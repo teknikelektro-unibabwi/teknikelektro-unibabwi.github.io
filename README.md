@@ -1,7 +1,7 @@
 # Information
 ### Link
 * Home Page : https://teknikelektro-unibabwi.github.io
-* Website Official : http://teknikelektro.unibabwi.ac.id
+* Official Website : http://teknikelektro.unibabwi.ac.id
 * Form Identitas Mahasiswa : https://teknikelektro-unibabwi.github.io/webpage/form-identitas-mahasiswa.html
 * Form Kepuasan Mahasiswa Terhadap Pelayanan Akademik https://teknikelektro-unibabwi.github.io/webpage/form-kepuasan-pelayanan-akademik.html
 ### Change
