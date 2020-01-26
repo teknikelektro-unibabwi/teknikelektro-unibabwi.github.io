@@ -6,5 +6,5 @@
 ## Link Url
 * <a href="https://teknikelektro-unibabwi.github.io/form-identitas-mahasiswa.html">Formulir Identitas Mahasiswa</a>
 ## Developer
-* <a href="https://github.com/ardirjs">Developer</a>
+* <a href="https://github.com/ardirjs">Contact The Developer</a>
 ## Contact Us
