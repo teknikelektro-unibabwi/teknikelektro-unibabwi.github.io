@@ -1,4 +1,4 @@
-# INFORMATION
-## Home page
-* <a href="https://teknikelektro-unibabwi.github.io">Forbidden</a>
-## Link page
+# Information
+## Home
+* <a href="https://teknikelektro-unibabwi.github.io">Home</a>
+## Link Url
