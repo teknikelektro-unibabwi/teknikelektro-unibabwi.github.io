@@ -1,11 +1,11 @@
 # Information
 ### Link
-* Home Page : https://teknikelektro-unibabwi.github.io
-* Official Website : http://teknikelektro.unibabwi.ac.id
-* Form Kuesioner Alumni : https://teknikelektro-unibabwi.github.io/webpage/form-kuesioner-alumni.html
-* Form Pendaftaran Mahasiswa Baru : https://teknikelektro-unibabwi.github.io/webpage/form-pendaftaran-mahasiswa-baru.html
-* Form Identitas Mahasiswa : https://teknikelektro-unibabwi.github.io/webpage/form-identitas-mahasiswa.html
-* Form Kepuasan Mahasiswa Terhadap Pelayanan Akademik : https://teknikelektro-unibabwi.github.io/webpage/form-kepuasan-pelayanan-akademik.html
+* Home Page https://teknikelektro-unibabwi.github.io
+* Official Website http://teknikelektro.unibabwi.ac.id
+* Form Kuesioner Alumni https://teknikelektro-unibabwi.github.io/webpage/form-kuesioner-alumni.html
+* Form Pendaftaran Mahasiswa Baru https://teknikelektro-unibabwi.github.io/webpage/form-pendaftaran-mahasiswa-baru.html
+* Form Identitas Mahasiswa https://teknikelektro-unibabwi.github.io/webpage/form-identitas-mahasiswa.html
+* Form Kepuasan Mahasiswa Terhadap Pelayanan Akademik https://teknikelektro-unibabwi.github.io/webpage/form-kepuasan-pelayanan-akademik.html
 ### Change
 * Log **2020-01-26** Add Form Kepuasan Mahasiswa Terhadap Pelayanan Akademik
 * Log **2020-01-25** Add Form Identitas Mahasiswa
