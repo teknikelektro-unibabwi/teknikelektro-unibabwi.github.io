@@ -11,4 +11,3 @@
 * Webmail : teknikelektro@unibabwi.ac.id
 ## Change Log
 * 2020-01-26 **Log :** create this repository
-<div style="color: red;">ss</div>
