@@ -21,4 +21,8 @@
   <a href="https://github.com/teknikelektro-unibabwi">
     <img width="95" height="95" src="https://avatars1.githubusercontent.com/u/60310758?s=460&v=4"></img>
   </a>
+  <a>&emsp;</a>
+  <a href="https://github.com/megabot-ijen">
+    <img width="95" height="95" src="https://avatars3.githubusercontent.com/u/49744627?s=200&v=4"></img>
+  </a>
 </div>
