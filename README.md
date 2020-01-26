@@ -14,3 +14,4 @@
 * Webmail : teknikelektro@unibabwi.ac.id
 ## Developer
 <a href="https://github.com/ardirjs"><img src="https://avatars0.githubusercontent.com/u/47668013?s=460&v=4"></img></a>
+<a href="https://github.com/teknikelektro-unibabwi"><img src="https://avatars0.githubusercontent.com/u/47668013?s=460&v=4"></img></a>
