@@ -9,4 +9,4 @@
 * Gmail : teknikelektro.unibabwi@gmail.com
 * Webmail : teknikelektro@unibabwi.ac.id
 ## Change Log
-* 2020-01-26 **Log :** create this repository
+* 2020-01-26 **Log :** Create this repository
