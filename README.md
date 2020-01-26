@@ -4,4 +4,7 @@
 * <a href="http://teknikelektro.unibabwi.ac.id">Website Official - Teknik Elektro</a>
 * <a href="http://unibabwi.ac.id">Website Official - Universitas PGRI Banyuwangi</a>
 ## Link Url
-* <a href="https://teknikelektro-unibabwi.github.io/form-identitas-mahasiswa.html">Form Identitas Mahasiswa</a>
+* <a href="https://teknikelektro-unibabwi.github.io/form-identitas-mahasiswa.html">Formulir Identitas Mahasiswa</a>
+## Developer
+* <a href="https://github.com/ardirjs">Developer</a>
+## Contact Us
