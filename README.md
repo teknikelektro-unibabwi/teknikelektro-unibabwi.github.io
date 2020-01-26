@@ -1,3 +1,3 @@
-# Information
+## Information
 ### Home page
-## Link page
+### Link page
