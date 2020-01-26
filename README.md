@@ -1,14 +1,13 @@
 # Information
-## Home
-* <a href="https://teknikelektro-unibabwi.github.io">Home Page - Forbidden</a>
-* <a href="http://teknikelektro.unibabwi.ac.id">Website Official - Teknik Elektro</a>
-* <a href="http://unibabwi.ac.id">Website Official - Universitas PGRI Banyuwangi</a>
 ## Link Url
-* <a href="https://teknikelektro-unibabwi.github.io/form-identitas-mahasiswa.html">Formulir Identitas Mahasiswa</a>
+* Home Page : https://teknikelektro-unibabwi.github.io
+* Website Official - Teknik Elektro : http://teknikelektro.unibabwi.ac.id
+* Website Official - Universitas PGRI Banyuwangi : http://unibabwi.ac.id
+* Formulir Identitas Mahasiswa : https://teknikelektro-unibabwi.github.io/form-identitas-mahasiswa.html
 ## Developer
 * <a href="https://github.com/ardirjs">Contact The Developer</a>
 ## Contact Us
-* <a href="mailto:teknikelektro.unibabwi@gmail.com">Gmail</a>
-* <a href="mailto:teknikelektro@unibabwi.ac.id">Webmail</a>
+* Gmail : teknikelektro.unibabwi@gmail.com
+* Webmail : teknikelektro@unibabwi.ac.id
 ## Change Log
 * 2020-01-26 **Log :** create this repository
