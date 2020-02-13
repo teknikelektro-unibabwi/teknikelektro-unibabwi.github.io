@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter|Roboto+Mono|Roboto+Slab|Teko&display=swap');
+
+:root {
+	--blue: rgb(26, 56, 112);
+	--yellow: rgb(253, 243, 0);
+	--teko: "Teko", sans-serif;
+	--bitter: "Bitter", serif;
+	--roboto-mono: "Roboto Mono", monospace;
+	--roboto-slab: "Roboto Slab", serif;
+}
+/*
+	element
+********************************************/
+html, body, h1, h2, h3, h4, h5, h6, p, span {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+iframe {
+	width: 100%;
+	height: 320px;
+	border: none;
+	padding: 0;
+	border-color: transparent;
+}
+/*
+	bootstrap
+********************************************/
+.fa {
+	font-size: 16pt;
+	width: 40px;
+	padding: 3px 0 3px 0;
+	text-align: left;
+	margin: 0;
+	border: none;
+}
+/*
+	form
+********************************************/
+.btn.btn-primary {
+	background-color: rgb(26, 56, 112);
+}
+.btn.btn-primary:hover {
+	background-color: rgba(26, 56, 112, .7);
+}
+/*
+	layout
+********************************************/
+.fill-width {
+	width: 100%;
+}
+.form-line-height {
+	margin-bottom: 7px;
+}
+.margin-top {
+	margin-top: 25px;
+}
+.margin-space {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.margin-end {
+	margin-bottom: 25px;
+}
+.border-style {
+	padding: 10px 3px 10px 3px;
+	border-radius: 5px;
+	box-shadow: 2px 1px 5px #000;
+}
+img.img-ttd {
+	width: 125px;
+}
+/*
+	line h element
+********************************************/
+h3.line-top, h4.line-top {
+	display: inline-block;
+	margin: -2px 0 0 0;
+	font-family: "Teko", sans-serif;
+	color: #000;
+}
+h4.line-top {
+	color: #fff;
+}
+h3.line-top:after, h4.line-top:after {
+	content: "";
+	border: 2px solid rgb(26, 56, 112);
+	border-radius: 0 25px 0 0;
+	display: block;
+	margin: -2px 0 0 0;
+}
+h4.line-top:after {
+	border: 2px solid rgb(253, 243, 0);
+}
+h3.line-bottom, h4.line-bottom {
+	border: 2px solid rgb(26, 56, 112);
+	border-radius: 0;
+	margin: -2px 0 5px 0;
+}
+h3.line-bottom {
+	margin-bottom: 20px;
+}
+h4.line-bottom {
+	border: 2px solid rgb(253, 243, 0);
+}
+hr {
+	height: 2px;
+	color: #000;
+	background-color: #000;
+}
+/*
+	carousel
+********************************************/
+.img-slide-1, .img-slide-2, .img-slide-3 {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	padding: 0;
+	margin: 0;
+}
+/*
+	background transparent
+********************************************/
+.background {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	padding: 0;
+	margin: 0;
+}
+.background-transparent {
+	background-color: rgba(26, 56, 112, .7);
+}
+.background-transparent>div>div>div>h1, .background-transparent>div>div>div>h3 {
+	font-weight: bold;
+	font-family: "Teko", sans-serif;
+	color: #fff;
+}
+/*
+	navbar
+********************************************/
+.navbar {
+	top: 0;
+	width: 100%;
+	position: fixed;
+	background-color: rgba(26, 56, 112, .3);
+	z-index: 999;
+}
+.p-2 {
+	padding: 0;
+}
+.img-icon {
+	width: 65px;
+}
+.navbar-brand>div>div {
+	color: #fff;
+	font-size: 22pt;
+	font-family: "Teko", sans-serif;
+}
+.navbar-nav a.nav-link.navbar-link {
+	color: #fff;
+	font-size: 14pt;
+	font-family: "Teko", sans-serif;
+}
+.navbar-nav a.nav-link.navbar-link:hover {
+	color: rgba(255, 255, 255, .7);
+}
+/*
+	section
+********************************************/
+a.section-link {
+	padding: 0;
+	color: #000;
+}
+a.section-link:hover {
+	color: rgba(0, 0, 0, .7);
+}
+/*
+	footer
+********************************************/
+.footer {
+	background-color: rgb(26, 56, 112);
+}
+a.footer-link {
+	padding: 0;
+	color: #fff;
+	font-size: 10pt;
+	font-family: "Roboto Mono", monospace;
+}
+a.footer-link:hover {
+	color: rgba(255, 255, 255, .7);
+}
+.copyright {
+	padding: 35px 0 25px 0;
+	color: #fff;
+	font-size: 9pt;
+	font-family: "Bitter", serif;
+}
+.footer-header {
+	border-left-width: 5px;
+	border-left-color: rgb(253, 243, 0);
+	border-left-style: solid;
+}
+/*
+	go bottom
+********************************************/
+.go-bottom {
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	color: #fff;
+	cursor: pointer;
+	font-family: "Bitter", serif;
+	font-size: 9pt;
+	background-color: rgb(26, 56, 112);
+	z-index: 80;
+}
+.go-bottom-icon {
+	padding: 3px 0 0 0;
+}
+.go-bottom-icon div span .fa {
+	padding: 0;
+	margin-top: -7px;
+	text-align: center;
+}
+/*
+	go top
+********************************************/
+.go-top {
+	right: 15px;
+	bottom: 15px;
+	position: fixed;
+	color: #fff;
+	cursor: pointer;
+	border-radius: 7px;
+	background-color: rgb(26, 56, 112);
+	visibility: hidden;
+	opacity: 0;
+	transition: visibility .8s ease-in-out, opacity .8s ease-in-out;
+	-webkit-transition: visibility .8s ease-in-out, opacity .8s ease-in-out;
+	-moz-transition: visibility .8s ease-in-out, opacity .8s ease-in-out;
+	-ms-transition: visibility .8s ease-in-out, opacity .8s ease-in-out;
+	z-index: 90;
+}
+.go-top-icon .fa {
+	font-size: 26pt;
+	text-align: center;
+}
+/*
+	media size
+********************************************/
+
+/*
+	end
+********************************************/
