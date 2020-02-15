@@ -71,6 +71,23 @@
 					<div class="col-lg">
 						<div class="table-responsive">
 							<table class="table table-bordered table-hover" id="table-biodata-mahasiswa">
+								<thead class="thead-light"><tr><th>Email</th><th>Nama</th><th>NIM</th><th>NIK</th><th>No. Telp/HP</th><th>Tempat dan Tanggal Lahir</th><th>Jenis Kelamin</th><th>Angkatan</th><th>Alamat</th><th>Nama Orang Tua</th><th>No. Telp/HP Orang Tua</th></tr></thead>
+								<tbody></tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="tab-pane container fade" id="tb3">
+				<div class="row">
+					<div class="col-sm-6"><button class="form-margin btn btn-primary fill-parent" id="btn-kuesioner-akademik">Get JSON</button></div>
+					<div class="col-sm-6"><button class="form-margin btn btn-primary fill-parent" id="btn-kuesioner-akademik-down">Download CSV</button></div>
+				</div>
+				<div class="margin-space-bottom">&nbsp;</div>
+				<div class="row">
+					<div class="col-lg">
+						<div class="table-responsive">
+							<table class="table table-bordered table-hover" id="table-kuesioner-akademik">
 								<thead class="thead-light">
 									<tr>
 										<th>Email</th>
@@ -92,7 +109,6 @@
 					</div>
 				</div>
 			</div>
-			<div class="tab-pane container fade" id="tb3">...</div>
 			<div class="tab-pane container fade" id="tb4">...</div>
 		</div>
 	</div>
@@ -105,8 +121,6 @@ $(document).ready(function() {
 				var arrChildKey = [], arrChildData = [];
 				arrChildKey.push(childSnapshot.key);
 				arrChildData.push(childSnapshot.val());
-				console.log(arrChildKey.length);
-				console.log(arrChildData[0].FA01);
 				$('#table-biodata-mahasiswa>tbody').append(
 					'<tr>' +
 						'<td>' + arrChildData[0].FA01 + '</td>' +
@@ -117,7 +131,7 @@ $(document).ready(function() {
 						'<td>' + arrChildData[0].FA06 + ',&nbsp;' + arrChildData[0].FA07 + '&nbsp;' + arrChildData[0].FA08 + '&nbsp;' + arrChildData[0].FA09 + '</td>' +
 						'<td>' + arrChildData[0].FA10 + '</td>' +
 						'<td>' + arrChildData[0].FA11 + '</td>' +
-						'<td>' + 'RT:&nbsp;' + arrChildData[0].FA12 + ',&nbsp;RW:&nbsp;' + arrChildData[0].FA13 + ',&nbsp;Dsn:&nbsp;' + arrChildData[0].FA14 + ',&nbsp;Ds:&nbsp;' + arrChildData[0].FA15 + ',&nbsp;Kec:&nbsp;' + arrChildData[0].FA16 + ',&nbsp;Kab:&nbsp;' + arrChildData[0].FA17 + '</td>' +
+						'<td>' + 'RT.&nbsp;' + arrChildData[0].FA12 + ',&nbsp;RW.&nbsp;' + arrChildData[0].FA13 + ',&nbsp;Dsn.&nbsp;' + arrChildData[0].FA14 + ',&nbsp;Ds.&nbsp;' + arrChildData[0].FA15 + ',&nbsp;Kec.&nbsp;' + arrChildData[0].FA16 + ',&nbsp;Kab.&nbsp;' + arrChildData[0].FA17 + '</td>' +
 						'<td>' + arrChildData[0].FB01 + '</td>' +
 						'<td>' + arrChildData[0].FB02 + '</td>' +
 					'</tr>'
