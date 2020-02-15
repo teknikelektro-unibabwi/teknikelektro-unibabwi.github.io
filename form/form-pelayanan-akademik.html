@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Formulir Biodata Mahasiswa | Teknik Elektro - Universitas PGRI Banyuwangi</title>
+	<title>Formulir Kepuasan Pelayanan Akademik | Teknik Elektro - Universitas PGRI Banyuwangi</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -26,49 +26,21 @@
 	<link href="../theme/asset/icon/uniba.png" rel="apple-touch-icon-precomposed">
 	<link href="https://fonts.googleapis.com/css?family=Bitter|Roboto+Mono|Teko&display=swap" rel="stylesheet" type="text/css">
 	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 	<script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-app.js" type="text/javascript"></script>
 	<script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-auth.js" type="text/javascript"></script>
 	<script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-database.js" type="text/javascript"></script>
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" type="text/javascript"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js" type="text/javascript"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" type="text/javascript"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/5.4.0/bootbox.min.js" type="text/javascript"></script>
 	<script type="text/javascript">firebase.initializeApp({apiKey:"AIzaSyDjhd5f9Iu2B49nocF_Fpm1qlz5ShdyRRs",authDomain:"baseteknikelektro.firebaseapp.com",databaseURL:"https://databaseteknikelektro.firebaseio.com",projectId:"databaseteknikelektro",storageBucket:"databaseteknikelektro.appspot.com",messagingSenderId:"511683152914",appId:"1:511683152914:web:4d317cf5e0bb5a40ee1ccb",measurementId:"G-95NP9ZB5DH"});</script>
-	<style type="text/css">
-		.margin-space-bottom {margin-bottom: 25px;}
-		.form-margin {margin-bottom: 5px;}
-		.fill-parent {width: 100%;}
-		.bg-blue {background-color: #1a3870; top: 0; position: sticky; z-index: 999;}
-		.img-icon {width: 50px;}
-		.copyright {color: #fff; padding: 15px; padding-left: 0px; font-family: "Bitter", serif; font-weight: normal; font-size: 10pt;}
-		.navbar {font-family: "Teko", sans-serif; font-size: 13pt;}
-		.navbar>a>div>div {font-size: 20pt;}
-		.navbar-nav .nav-item a.nav-link.navbar-link {color: rgb(255, 255, 255);}
-		.navbar-nav .nav-item a.nav-link.navbar-link:hover {color: rgba(255, 255, 255, .5);}
-		.btn.btn-primary {background-color: rgb(26, 56, 112);}
-		.btn.btn-primary:hover {background-color: rgba(26, 56, 112, .5);}
-		h3.line-top, h4.line-top {display: inline-block; margin: -2px 0 0 0; font-family: "Teko", sans-serif; color: #000;}
-		h4.line-top {color: #fff;}
-		h3.line-top:after, h4.line-top:after {content: ""; border: 2px solid rgb(26, 56, 112); border-radius: 0 25px 0 0; display: block; margin: -2px 0 0 0;}
-		h4.line-top:after {border: 2px solid rgb(253, 243, 0);}
-		h3.line-bottom, h4.line-bottom {border: 2px solid rgb(26, 56, 112); border-radius: 0; margin: -2px 0 5px 0;}
-		h3.line-bottom {margin-bottom: 20px;}
-		h4.line-bottom {border: 2px solid rgb(253, 243, 0);}
-		hr {height: 2px; color: #000; background-color: #000;}
-	</style>
+	<style type="text/css">.margin-space-bottom {margin-bottom: 25px;} .form-margin {margin-bottom: 5px;} .fill-parent {width: 100%;} .bg-blue {background-color: #1a3870; top: 0; position: sticky; z-index: 999;} .img-icon {width: 50px;} .copyright {color: #fff; padding: 15px; padding-left: 0px; font-family: "Bitter", serif; font-weight: normal; font-size: 10pt;} .navbar {font-family: "Teko", sans-serif; font-size: 13pt;} .navbar>a>div>div {font-size: 20pt;} .navbar-nav .nav-item a.nav-link.navbar-link {color: rgb(255, 255, 255);} .navbar-nav .nav-item a.nav-link.navbar-link:hover {color: rgba(255, 255, 255, .5);} .btn.btn-primary {background-color: rgb(26, 56, 112);} .btn.btn-primary:hover {background-color: rgba(26, 56, 112, .5);} h3.line-top, h4.line-top {display: inline-block; margin: -2px 0 0 0; font-family: "Teko", sans-serif; color: #000;} h4.line-top {color: #fff;} h3.line-top:after, h4.line-top:after {content: ""; border: 2px solid rgb(26, 56, 112); border-radius: 0 25px 0 0; display: block; margin: -2px 0 0 0;} h4.line-top:after {border: 2px solid rgb(253, 243, 0);} h3.line-bottom, h4.line-bottom {border: 2px solid rgb(26, 56, 112); border-radius: 0; margin: -2px 0 5px 0;} h3.line-bottom {margin-bottom: 20px;} h4.line-bottom {border: 2px solid rgb(253, 243, 0);} hr {height: 2px; color: #000; background-color: #000;}.loading{display:none;flex-flow:row;align-items:center;justify-content:center;background-color:rgba(26, 56, 112, .8);width:100vw;height:100vh;position:fixed;top:0;left:0;z-index:9990;}.spinner-border{width:4rem;height:4rem;}</style>
 </head>
 <body>
 	<div class="navbar navbar-expand-lg navbar-dark bg-blue margin-space-bottom">
-		<a class="navbar-brand" href="#">
-			<div class="d-flex align-items-center">
-				<div class="p"><img src="../theme/asset/icon/uniba.png" class="img-icon" alt="icon"></div>
-				<div class="p auto">&nbsp;&nbsp;<b>Teknik Elektro</b></div>
-			</div>
-		</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collaps-navbar">
-			<span class="navbar-toggler-icon"></span>
-		</button>
+		<a class="navbar-brand" href="#"><div class="d-flex align-items-center"><div class="p"><img src="../theme/asset/icon/uniba.png" class="img-icon" alt="icon"></div><div class="p auto">&nbsp;&nbsp;<b>Teknik Elektro</b></div></div></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collaps-navbar"><span class="navbar-toggler-icon"></span></button>
 		<div class="collapse navbar-collapse" id="collaps-navbar">
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item"><a class="nav-link navbar-link" href="http://teknikelektro.unibabwi.ac.id/" target="_blank">Home</a></li>
@@ -85,494 +57,294 @@
 		<div class="row">
 			<div class="col-lg">
 				<div class="formulir margin-space-bottom">
+					<h6><b>A. Identitas Diri</b></h6><hr>
 					<div class="form-group">
 						<label class="text-justify">Email</label>
-						<input type="email" class="form-control" id="email" name="email">
+						<input type="email" class="form-control" id="FA01">
 					</div>
 					<div class="form-group">
 						<label class="text-justify">Nama Lengkap</label>
-						<input type="text" class="form-control" id="nama" name="nama">
+						<input type="text" class="form-control" id="FA02">
 					</div>
 					<div class="form-group">
 						<label class="text-justify">Nomor Induk Mahasiswa</label>
-						<input type="text" class="form-control" id="nim" name="nim">
+						<input type="text" class="form-control" id="FA03">
 					</div>
 					<div class="form-group">
 						<label class="text-justify">Jenis Kelamin</label>
-						<select class="form-control custom-select" id="kelamin">
-							<option value="Laki - Laki">Laki - Laki</option>
+						<select class="form-control custom-select" id="FA04">
+							<option value="Laki Laki">Laki Laki</option>
 							<option value="Perempuan">Perempuan</option>
 						</select>
 					</div>
 					<div class="form-group">
 						<label class="text-justify">Alamat Lengkap</label>
 						<div class="row">
-							<div class="col-sm-6 form-margin"><input type="text" class="form-control" id="rt" name="rt" placeholder="RT"></div>
-							<div class="col-sm-6 form-margin"><input type="text" class="form-control" id="rw" name="rw" placeholder="RW"></div>
-							<div class="col-sm-6 form-margin"><input type="text" class="form-control" id="dusun" name="dusun" placeholder="Dusun"></div>
-							<div class="col-sm-6 form-margin"><input type="text" class="form-control" id="desa" name="desa" placeholder="Desa"></div>
-							<div class="col-sm-6 form-margin"><input type="text" class="form-control" id="kecamatan" name="kecamatan" placeholder="Kecamatan"></div>
-							<div class="col-sm-6 form-margin"><input type="text" class="form-control" id="kabupaten" name="kabupaten" placeholder="Kabupaten"></div>
+							<div class="col-sm-6 form-margin"><input type="text" class="form-control" id="FA05" placeholder="RT"></div>
+							<div class="col-sm-6 form-margin"><input type="text" class="form-control" id="FA06" placeholder="RW"></div>
+							<div class="col-sm-6 form-margin"><input type="text" class="form-control" id="FA07" placeholder="Dusun"></div>
+							<div class="col-sm-6 form-margin"><input type="text" class="form-control" id="FA08" placeholder="Desa"></div>
+							<div class="col-sm-6 form-margin"><input type="text" class="form-control" id="FA09" placeholder="Kecamatan"></div>
+							<div class="col-sm-6 form-margin"><input type="text" class="form-control" id="FA10" placeholder="Kabupaten"></div>
 						</div>
 					</div>
-					<h6><b>Aspek <i>Tangibles</i> (Sarana Pendidikan - Alat Perkuliahan, Media Pengajaran dan Prasarana Pendidikan)</b></h6><hr>
+					<h6><b>B. Aspek <i>Tangibles</i> (Sarana Pendidikan - Alat Perkuliahan, Media Pengajaran Dan Prasarana Pendidikan)</b></h6><hr>
 					<div class="form-group">
-						<label class="text-justify">1. Ruang kuliah tertata dengan bersih dan rapi</label>
-						<div class="input-group">
-							<div class="input-group-prepend">
-								<span class="input-group-text">Nilai</span>
-							</div>
-							<select class="form-control custom-select" id="tangibles-1">
-								<option value="Memuaskan">Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Tidak Memuaskan">Tidak Memuaskan</option>
-							</select>
-						</div>
+						<label class="text-justify">Ruang kuliah tertata dengan bersih dan rapi</label>
+						<select class="form-control custom-select" id="FB01">
+							<option value="Tidak Memuaskan">Tidak Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Memuaskan">Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option>
+						</select>
 					</div>
 					<div class="form-group">
-						<label class="text-justify">2. Ruang kuliah sejuk dan nyaman</label>
-						<div class="input-group">
-							<div class="input-group-prepend">
-								<span class="input-group-text">Nilai</span>
-							</div>
-							<select class="form-control custom-select" id="tangibles-2">
-								<option value="Memuaskan">Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Tidak Memuaskan">Tidak Memuaskan</option>
-							</select>
-						</div>
+						<label class="text-justify">Ruang kuliah sejuk dan nyaman</label>
+						<select class="form-control custom-select" id="FB02">
+							<option value="Tidak Memuaskan">Tidak Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Memuaskan">Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option>
+						</select>
 					</div>
 					<div class="form-group">
-						<label class="text-justify">3. Sarana pembelajaran yang tersedia di ruang kuliah</label>
-						<div class="input-group">
-							<div class="input-group-prepend">
-								<span class="input-group-text">Nilai</span>
-							</div>
-							<select class="form-control custom-select" id="tangibles-3">
-								<option value="Memuaskan">Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Tidak Memuaskan">Tidak Memuaskan</option>
-							</select>
-						</div>
+						<label class="text-justify">Sarana pembelajaran yang tersedia di ruang kuliah</label>
+						<select class="form-control custom-select" id="FB03">
+							<option value="Tidak Memuaskan">Tidak Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Memuaskan">Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option>
+						</select>
 					</div>
 					<div class="form-group">
-						<label class="text-justify">4. Prodi Teknik Elektro Fakultas Teknik mempunyai perpustakaan yang lengkap</label>
-						<div class="input-group">
-							<div class="input-group-prepend">
-								<span class="input-group-text">Nilai</span>
-							</div>
-							<select class="form-control custom-select" id="tangibles-4">
-								<option value="Memuaskan">Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Tidak Memuaskan">Tidak Memuaskan</option>
-							</select>
-						</div>
+						<label class="text-justify">Prodi Teknik Elektro Fakultas Teknik mempunyai perpustakaan yang lengkap</label>
+						<select class="form-control custom-select" id="FB04">
+							<option value="Tidak Memuaskan">Tidak Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Memuaskan">Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option>
+						</select>
 					</div>
 					<div class="form-group">
-						<label class="text-justify">5. Laboratorium, bengkel yang relevan dengan kebutuhan keilmuan bagi mahasiswa (IPA, Teknik, bahasa, komputer dan lain-lain)</label>
-						<div class="input-group">
-							<div class="input-group-prepend">
-								<span class="input-group-text">Nilai</span>
-							</div>
-							<select class="form-control custom-select" id="tangibles-5">
-								<option value="Memuaskan">Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Tidak Memuaskan">Tidak Memuaskan</option>
-							</select>
-						</div>
+						<label class="text-justify">Laboratorium, bengkel yang relevan dengan kebutuhan keilmuan bagi mahasiswa (IPA, Teknik, bahasa, komputer dan lain-lain)</label>
+						<select class="form-control custom-select" id="FB05">
+							<option value="Tidak Memuaskan">Tidak Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Memuaskan">Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option>
+						</select>
 					</div>
 					<div class="form-group">
-						<label class="text-justify">6. Ketersediaan buku referensi yang di perpustakaan</label>
-						<div class="input-group">
-							<div class="input-group-prepend">
-								<span class="input-group-text">Nilai</span>
-							</div>
-							<select class="form-control custom-select" id="tangibles-6">
-								<option value="Memuaskan">Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Tidak Memuaskan">Tidak Memuaskan</option>
-							</select>
-						</div>
+						<label class="text-justify">Ketersediaan buku referensi yang di perpustakaan</label>
+						<select class="form-control custom-select" id="FB06">
+							<option value="Tidak Memuaskan">Tidak Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Memuaskan">Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option>
+						</select>
 					</div>
 					<div class="form-group">
-						<label class="text-justify">7. Ketersediaan fasilitas kamar kecil yang cukup dan bersih</label>
-						<div class="input-group">
-							<div class="input-group-prepend">
-								<span class="input-group-text">Nilai</span>
-							</div>
-							<select class="form-control custom-select" id="tangibles-7">
-								<option value="Memuaskan">Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Tidak Memuaskan">Tidak Memuaskan</option>
-							</select>
-						</div>
+						<label class="text-justify">Ketersediaan fasilitas kamar kecil yang cukup dan bersih</label>
+						<select class="form-control custom-select" id="FB07">
+							<option value="Tidak Memuaskan">Tidak Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Memuaskan">Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option>
+						</select>
 					</div>
 					<div class="form-group">
-						<label class="text-justify">8. Fasilitas ibadah yang dapat dipergunakan oleh mahasiswa di Prodi Teknik Elektro Fakultas Teknik</label>
-						<div class="input-group">
-							<div class="input-group-prepend">
-								<span class="input-group-text">Nilai</span>
-							</div>
-							<select class="form-control custom-select" id="tangibles-8">
-								<option value="Memuaskan">Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Tidak Memuaskan">Tidak Memuaskan</option>
-							</select>
-						</div>
+						<label class="text-justify">Fasilitas ibadah yang dapat dipergunakan oleh mahasiswa di Prodi Teknik Elektro Fakultas Teknik</label>
+						<select class="form-control custom-select" id="FB08">
+							<option value="Tidak Memuaskan">Tidak Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Memuaskan">Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option>
+						</select>
 					</div>
 					<div class="form-group">
-						<label class="text-justify">9. Kesesuaian nilai yang diberikan dengan hasil belajar</label>
-						<div class="input-group">
-							<div class="input-group-prepend">
-								<span class="input-group-text">Nilai</span>
-							</div>
-							<select class="form-control custom-select" id="tangibles-9">
-								<option value="Memuaskan">Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Tidak Memuaskan">Tidak Memuaskan</option>
-							</select>
-						</div>
+						<label class="text-justify">Kesesuaian nilai yang diberikan dengan hasil belajar</label>
+						<select class="form-control custom-select" id="FB09">
+							<option value="Tidak Memuaskan">Tidak Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Memuaskan">Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option>
+						</select>
 					</div>
-					<h6><b>Aspek <i>Reliability</i> (Kehandalan Dosen dan Staf Akademik)</b></h6><hr>
+					<h6><b>C. Aspek <i>Reliability</i> (Kehandalan Dosen Dan Staf Akademik)</b></h6><hr>
 					<div class="form-group">
-						<label class="text-justify">1. Kejelasan materi perkuliahan yang diberikan dosen</label>
-						<div class="input-group">
-							<div class="input-group-prepend">
-								<span class="input-group-text">Nilai</span>
-							</div>
-							<select class="form-control custom-select" id="reliability-1">
-								<option value="Memuaskan">Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Tidak Memuaskan">Tidak Memuaskan</option>
-							</select>
-						</div>
+						<label class="text-justify">Kejelasan materi perkuliahan yang diberikan dosen</label>
+						<select class="form-control custom-select" id="FC01">
+							<option value="Tidak Memuaskan">Tidak Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Memuaskan">Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option>
+						</select>
 					</div>
 					<div class="form-group">
-						<label class="text-justify">2. Waktu yang disediakan untuk diskusi dan tanya jawab</label>
-						<div class="input-group">
-							<div class="input-group-prepend">
-								<span class="input-group-text">Nilai</span>
-							</div>
-							<select class="form-control custom-select" id="reliability-2">
-								<option value="Memuaskan">Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Tidak Memuaskan">Tidak Memuaskan</option>
-							</select>
-						</div>
+						<label class="text-justify">Waktu yang disediakan untuk diskusi dan tanya jawab</label>
+						<select class="form-control custom-select" id="FC02">
+							<option value="Tidak Memuaskan">Tidak Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Memuaskan">Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option>
+						</select>
 					</div>
 					<div class="form-group">
-						<label class="text-justify">3. Bahan ajar suplemen (handout, modul, dll) yang diberikan kepada mahasiswa untuk melengkapi materi perkuliahan</label>
-						<div class="input-group">
-							<div class="input-group-prepend">
-								<span class="input-group-text">Nilai</span>
-							</div>
-							<select class="form-control custom-select" id="reliability-3">
-								<option value="Memuaskan">Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Tidak Memuaskan">Tidak Memuaskan</option>
-							</select>
-						</div>
+						<label class="text-justify">Bahan ajar suplemen (handout, modul, dll) yang diberikan kepada mahasiswa untuk melengkapi materi perkuliahan</label>
+						<select class="form-control custom-select" id="FC03">
+							<option value="Tidak Memuaskan">Tidak Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Memuaskan">Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option>
+						</select>
 					</div>
 					<div class="form-group">
-						<label class="text-justify">4. Dosen mengembalikan hasil ujian/tugas dengan nilai yang obyektif</label>
-						<div class="input-group">
-							<div class="input-group-prepend">
-								<span class="input-group-text">Nilai</span>
-							</div>
-							<select class="form-control custom-select" id="reliability-4">
-								<option value="Memuaskan">Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Tidak Memuaskan">Tidak Memuaskan</option>
-							</select>
-						</div>
+						<label class="text-justify">Dosen mengembalikan hasil ujian/tugas dengan nilai yang obyektif</label>
+						<select class="form-control custom-select" id="FC04">
+							<option value="Tidak Memuaskan">Tidak Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Memuaskan">Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option>
+						</select>
 					</div>
 					<div class="form-group">
-						<label class="text-justify">5. Dosen datang tepat waktu</label>
-						<div class="input-group">
-							<div class="input-group-prepend">
-								<span class="input-group-text">Nilai</span>
-							</div>
-							<select class="form-control custom-select" id="reliability-5">
-								<option value="Memuaskan">Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Tidak Memuaskan">Tidak Memuaskan</option>
-							</select>
-						</div>
+						<label class="text-justify">Dosen datang tepat waktu</label>
+						<select class="form-control custom-select" id="FC05">
+							<option value="Tidak Memuaskan">Tidak Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Memuaskan">Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option>
+						</select>
 					</div>
 					<div class="form-group">
-						<label class="text-justify">6. Dosen memadai sesuai dengan bidang keahliannya</label>
-						<div class="input-group">
-							<div class="input-group-prepend">
-								<span class="input-group-text">Nilai</span>
-							</div>
-							<select class="form-control custom-select" id="reliability-6">
-								<option value="Memuaskan">Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Tidak Memuaskan">Tidak Memuaskan</option>
-							</select>
-						</div>
+						<label class="text-justify">Dosen memadai sesuai dengan bidang keahliannya</label>
+						<select class="form-control custom-select" id="FC06">
+							<option value="Tidak Memuaskan">Tidak Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Memuaskan">Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option>
+						</select>
 					</div>
 					<div class="form-group">
-						<label class="text-justify">7. Satuan Acara Perkuliahan yang dibuat dosen</label>
-						<div class="input-group">
-							<div class="input-group-prepend">
-								<span class="input-group-text">Nilai</span>
-							</div>
-							<select class="form-control custom-select" id="reliability-7">
-								<option value="Memuaskan">Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Tidak Memuaskan">Tidak Memuaskan</option>
-							</select>
-						</div>
+						<label class="text-justify">Satuan Acara Perkuliahan yang dibuat dosen</label>
+						<select class="form-control custom-select" id="FC07">
+							<option value="Tidak Memuaskan">Tidak Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Memuaskan">Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option>
+						</select>
 					</div>
 					<div class="form-group">
-						<label class="text-justify">8. Kemampuan staf akademik untuk melayani administrasi kemahasiswaan</label>
-						<div class="input-group">
-							<div class="input-group-prepend">
-								<span class="input-group-text">Nilai</span>
-							</div>
-							<select class="form-control custom-select" id="reliability-8">
-								<option value="Memuaskan">Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Tidak Memuaskan">Tidak Memuaskan</option>
-							</select>
-						</div>
+						<label class="text-justify">Kemampuan staf akademik untuk melayani administrasi kemahasiswaan</label>
+						<select class="form-control custom-select" id="FC08">
+							<option value="Tidak Memuaskan">Tidak Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Memuaskan">Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option>
+						</select>
 					</div>
 					<div class="form-group">
-						<label class="text-justify">9. Kualitas layanan staf akademik untuk memenuhi kepentingan mahasiswa</label>
-						<div class="input-group">
-							<div class="input-group-prepend">
-								<span class="input-group-text">Nilai</span>
-							</div>
-							<select class="form-control custom-select" id="reliability-9">
-								<option value="Memuaskan">Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Tidak Memuaskan">Tidak Memuaskan</option>
-							</select>
-						</div>
+						<label class="text-justify">Kualitas layanan staf akademik untuk memenuhi kepentingan mahasiswa</label>
+						<select class="form-control custom-select" id="FC09">
+							<option value="Tidak Memuaskan">Tidak Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Memuaskan">Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option>
+						</select>
 					</div>
-					<h6><b>Aspek <i>Responsiveness</i> (Sikap Tanggap)</b></h6><hr>
+					<h6><b>D. Aspek <i>Responsiveness</i> (Sikap Tanggap)</b></h6><hr>
 					<div class="form-group">
-						<label class="text-justify">1. Prodi Teknik Elektro Fakultas Teknik menyediakan dosen Bimbingan Konseling bagi mahasiswa</label>
-						<div class="input-group">
-							<div class="input-group-prepend">
-								<span class="input-group-text">Nilai</span>
-							</div>
-							<select class="form-control custom-select" id="responsiveness-1">
-								<option value="Memuaskan">Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Tidak Memuaskan">Tidak Memuaskan</option>
-							</select>
-						</div>
+						<label class="text-justify">Prodi Teknik Elektro Fakultas Teknik menyediakan dosen Bimbingan Konseling bagi mahasiswa</label>
+						<select class="form-control custom-select" id="FD01">
+							<option value="Tidak Memuaskan">Tidak Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Memuaskan">Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option>
+						</select>
 					</div>
 					<div class="form-group">
-						<label class="text-justify">2. Prodi Teknik Elektro Fakultas Teknik menyediakan beasiswa bagi mahasiswa yang tidak mampu</label>
-						<div class="input-group">
-							<div class="input-group-prepend">
-								<span class="input-group-text">Nilai</span>
-							</div>
-							<select class="form-control custom-select" id="responsiveness-2">
-								<option value="Memuaskan">Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Tidak Memuaskan">Tidak Memuaskan</option>
-							</select>
-						</div>
+						<label class="text-justify">Prodi Teknik Elektro Fakultas Teknik menyediakan beasiswa bagi mahasiswa yang tidak mampu</label>
+						<select class="form-control custom-select" id="FD02">
+							<option value="Tidak Memuaskan">Tidak Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Memuaskan">Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option>
+						</select>
 					</div>
 					<div class="form-group">
-						<label class="text-justify">3.Prodi Teknik Elektro Fakultas Teknik membantu mahasiswa apabila menghadapi masalah akademik</label>
-						<div class="input-group">
-							<div class="input-group-prepend">
-								<span class="input-group-text">Nilai</span>
-							</div>
-							<select class="form-control custom-select" id="responsiveness-3">
-								<option value="Memuaskan">Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Tidak Memuaskan">Tidak Memuaskan</option>
-							</select>
-						</div>
+						<label class="text-justify">Prodi Teknik Elektro Fakultas Teknik membantu mahasiswa apabila menghadapi masalah akademik</label>
+						<select class="form-control custom-select" id="FD03">
+							<option value="Tidak Memuaskan">Tidak Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Memuaskan">Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option>
+						</select>
 					</div>
 					<div class="form-group">
-						<label class="text-justify">4. Pimpinan Fakultas Teknik peserta jajarannya menyediakan waktu bagi orang tua mahasiswa untuk berkonsultasi</label>
-						<div class="input-group">
-							<div class="input-group-prepend">
-								<span class="input-group-text">Nilai</span>
-							</div>
-							<select class="form-control custom-select" id="responsiveness-4">
-								<option value="Memuaskan">Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Tidak Memuaskan">Tidak Memuaskan</option>
-							</select>
-						</div>
+						<label class="text-justify">Pimpinan Fakultas Teknik peserta jajarannya menyediakan waktu bagi orang tua mahasiswa untuk berkonsultasi</label>
+						<select class="form-control custom-select" id="FD04">
+							<option value="Tidak Memuaskan">Tidak Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Memuaskan">Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option>
+						</select>
 					</div>
 					<div class="form-group">
-						<label class="text-justify">5. Prodi Teknik Elektro Fakultas Teknik khususnya prodi Teknik Elektro memberikan bantuan asuransi bagi mahasiswa yang mendapatkan musibah</label>
-						<div class="input-group">
-							<div class="input-group-prepend">
-								<span class="input-group-text">Nilai</span>
-							</div>
-							<select class="form-control custom-select" id="responsiveness-5">
-								<option value="Memuaskan">Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Tidak Memuaskan">Tidak Memuaskan</option>
-							</select>
-						</div>
+						<label class="text-justify">Prodi Teknik Elektro Fakultas Teknik khususnya prodi Teknik Elektro memberikan bantuan asuransi bagi mahasiswa yang mendapatkan musibah</label>
+						<select class="form-control custom-select" id="FD05">
+							<option value="Tidak Memuaskan">Tidak Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Memuaskan">Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option>
+						</select>
 					</div>
-					<h6><b>Aspek <i>Assurance</i> (Perlakuan Kepada Mahasiswa)</b></h6><hr>
+					<h6><b>E. Aspek <i>Assurance</i> (Perlakuan Kepada Mahasiswa)</b></h6><hr>
 					<div class="form-group">
-						<label class="text-justify">1. Staf administrasi akademik santun dalam memberikan pelayanan</label>
-						<div class="input-group">
-							<div class="input-group-prepend">
-								<span class="input-group-text">Nilai</span>
-							</div>
-							<select class="form-control custom-select" id="assurance-1">
-								<option value="Memuaskan">Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Tidak Memuaskan">Tidak Memuaskan</option>
-							</select>
-						</div>
+						<label class="text-justify">Staf administrasi akademik santun dalam memberikan pelayanan</label>
+						<select class="form-control custom-select" id="FE01">
+							<option value="Tidak Memuaskan">Tidak Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Memuaskan">Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option>
+						</select>
 					</div>
 					<div class="form-group">
-						<label class="text-justify">2. Permasalahan/keluhan mahasiswa ditangani oleh Fakultas Teknik melalui dosen PA (Pembimbing Akademik)</label>
-						<div class="input-group">
-							<div class="input-group-prepend">
-								<span class="input-group-text">Nilai</span>
-							</div>
-							<select class="form-control custom-select" id="assurance-2">
-								<option value="Memuaskan">Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Tidak Memuaskan">Tidak Memuaskan</option>
-							</select>
-						</div>
+						<label class="text-justify">Permasalahan/keluhan mahasiswa ditangani oleh Fakultas Teknik melalui dosen PA (Pembimbing Akademik)</label>
+						<select class="form-control custom-select" id="FE02">
+							<option value="Tidak Memuaskan">Tidak Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Memuaskan">Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option>
+						</select>
 					</div>
 					<div class="form-group">
-						<label class="text-justify">3. Setiap pekerjaan/tugas selalu dikembalikan pada mahasiswa</label>
-						<div class="input-group">
-							<div class="input-group-prepend">
-								<span class="input-group-text">Nilai</span>
-							</div>
-							<select class="form-control custom-select" id="assurance-3">
-								<option value="Memuaskan">Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Tidak Memuaskan">Tidak Memuaskan</option>
-							</select>
-						</div>
+						<label class="text-justify">Setiap pekerjaan/tugas selalu dikembalikan pada mahasiswa</label>
+						<select class="form-control custom-select" id="FE03">
+							<option value="Tidak Memuaskan">Tidak Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Memuaskan">Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option>
+						</select>
 					</div>
 					<div class="form-group">
-						<label class="text-justify">4. Waktu dipergunakan secara efektif oleh dosen dalam proses pengajaran</label>
-						<div class="input-group">
-							<div class="input-group-prepend">
-								<span class="input-group-text">Nilai</span>
-							</div>
-							<select class="form-control custom-select" id="assurance-4">
-								<option value="Memuaskan">Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Tidak Memuaskan">Tidak Memuaskan</option>
-							</select>
-						</div>
+						<label class="text-justify">Waktu dipergunakan secara efektif oleh dosen dalam proses pengajaran</label>
+						<select class="form-control custom-select" id="FE04">
+							<option value="Tidak Memuaskan">Tidak Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Memuaskan">Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option>
+						</select>
 					</div>
 					<div class="form-group">
-						<label class="text-justify">5. Sanksi bagi mahasiswa yang melanggar peraturan yang telah ditetapkan Universitas PGRI Banyuwangi dan berlaku untuk semua mahasiswa tanpa terkecuali</label>
-						<div class="input-group">
-							<div class="input-group-prepend">
-								<span class="input-group-text">Nilai</span>
-							</div>
-							<select class="form-control custom-select" id="assurance-5">
-								<option value="Memuaskan">Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Tidak Memuaskan">Tidak Memuaskan</option>
-							</select>
-						</div>
+						<label class="text-justify">Sanksi bagi mahasiswa yang melanggar peraturan yang telah ditetapkan Universitas PGRI Banyuwangi dan berlaku untuk semua mahasiswa tanpa terkecuali</label>
+						<select class="form-control custom-select" id="FE05">
+							<option value="Tidak Memuaskan">Tidak Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Memuaskan">Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option>
+						</select>
 					</div>
-					<h6><b>Aspek <i>Empathy</i> (Pemahaman Terhadap kKepentingan Mahasiswa)</b></h6><hr>
+					<h6><b>F. Aspek <i>Empathy</i> (Pemahaman Terhadap kKepentingan Mahasiswa)</b></h6><hr>
 					<div class="form-group">
-						<label class="text-justify">1. Kepedulian Prodi Teknik Elektro Fakultas Teknik dalam memahami kepentingan dan kesulitan mahasiswa</label>
-						<div class="input-group">
-							<div class="input-group-prepend">
-								<span class="input-group-text">Nilai</span>
-							</div>
-							<select class="form-control custom-select" id="empathy-1">
-								<option value="Memuaskan">Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Tidak Memuaskan">Tidak Memuaskan</option>
-							</select>
-						</div>
+						<label class="text-justify">Kepedulian Prodi Teknik Elektro Fakultas Teknik dalam memahami kepentingan dan kesulitan mahasiswa</label>
+						<select class="form-control custom-select" id="FF01">
+							<option value="Tidak Memuaskan">Tidak Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Memuaskan">Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option>
+						</select>
 					</div>
 					<div class="form-group">
-						<label class="text-justify">2. Besarnya kontribusi biaya (sumbangan pengembangan lembaga) dibicarakan dengan orang tua wali mahasiswa</label>
-						<div class="input-group">
-							<div class="input-group-prepend">
-								<span class="input-group-text">Nilai</span>
-							</div>
-							<select class="form-control custom-select" id="empathy-2">
-								<option value="Memuaskan">Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Tidak Memuaskan">Tidak Memuaskan</option>
-							</select>
-						</div>
+						<label class="text-justify">Besarnya kontribusi biaya (sumbangan pengembangan lembaga) dibicarakan dengan orang tua wali mahasiswa</label>
+						<select class="form-control custom-select" id="FF02">
+							<option value="Tidak Memuaskan">Tidak Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Memuaskan">Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option>
+						</select>
 					</div>
 					<div class="form-group">
-						<label class="text-justify">3. Prodi Teknik Elektro Fakultas Teknik memonitor terhadap kemajuan mahasiswa melalui dosen Pembimbing Akademik atau dosen bimbingan konseling</label>
-						<div class="input-group">
-							<div class="input-group-prepend">
-								<span class="input-group-text">Nilai</span>
-							</div>
-							<select class="form-control custom-select" id="empathy-3">
-								<option value="Memuaskan">Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Tidak Memuaskan">Tidak Memuaskan</option>
-							</select>
-						</div>
+						<label class="text-justify">Prodi Teknik Elektro Fakultas Teknik memonitor terhadap kemajuan mahasiswa melalui dosen Pembimbing Akademik atau dosen bimbingan konseling</label>
+						<select class="form-control custom-select" id="FF03">
+							<option value="Tidak Memuaskan">Tidak Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Memuaskan">Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option>
+						</select>
 					</div>
 					<div class="form-group">
-						<label class="text-justify">4. Dosen bersedia membantu mahasiswa yang mengalami kesulitan bidang akademik/mata kuliah</label>
-						<div class="input-group">
-							<div class="input-group-prepend">
-								<span class="input-group-text">Nilai</span>
-							</div>
-							<select class="form-control custom-select" id="empathy-4">
-								<option value="Memuaskan">Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Tidak Memuaskan">Tidak Memuaskan</option>
-							</select>
-						</div>
+						<label class="text-justify">Dosen bersedia membantu mahasiswa yang mengalami kesulitan bidang akademik/mata kuliah</label>
+						<select class="form-control custom-select" id="FF04">
+							<option value="Tidak Memuaskan">Tidak Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Memuaskan">Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option>
+						</select>
 					</div>
 					<div class="form-group">
-						<label class="text-justify">5. Dosen bersikap terbuka, kooperatif dengan mahasiswa</label>
-						<div class="input-group">
-							<div class="input-group-prepend">
-								<span class="input-group-text">Nilai</span>
-							</div>
-							<select class="form-control custom-select" id="empathy-5">
-								<option value="Memuaskan">Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Tidak Memuaskan">Tidak Memuaskan</option>
-							</select>
-						</div>
+						<label class="text-justify">Dosen bersikap terbuka, kooperatif dengan mahasiswa</label>
+						<select class="form-control custom-select" id="FF05">
+							<option value="Tidak Memuaskan">Tidak Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Memuaskan">Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option>
+						</select>
 					</div>
 					<div class="form-group">
-						<label class="text-justify">6. Prodi Teknik Elektro Fakultas Teknik berusaha memahami minat dan bakat mahasiswa dan berusaha untuk mengembangkannya</label>
-						<div class="input-group">
-							<div class="input-group-prepend">
-								<span class="input-group-text">Nilai</span>
-							</div>
-							<select class="form-control custom-select" id="empathy-6">
-								<option value="Memuaskan">Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Tidak Memuaskan">Tidak Memuaskan</option>
-							</select>
-						</div>
+						<label class="text-justify">Prodi Teknik Elektro Fakultas Teknik berusaha memahami minat dan bakat mahasiswa dan berusaha untuk mengembangkannya</label>
+						<select class="form-control custom-select" id="FF06">
+							<option value="Tidak Memuaskan">Tidak Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Memuaskan">Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option>
+						</select>
 					</div>
-					<h6><b>Aspek <i>Information System</i> (Sistem Informasi Kemahasiswaan)</b></h6><hr>
+					<h6><b>G. Aspek <i>Information System</i> (Sistem Informasi Kemahasiswaan)</b></h6><hr>
 					<div class="form-group">
-						<label class="text-justify">1. Prodi Teknik Elektro Fakultas Teknik memberikan informasi sistem perkuliahan dalam bentuk buku panduan perkuliahan</label>
-						<div class="input-group">
-							<div class="input-group-prepend">
-								<span class="input-group-text">Nilai</span>
-							</div>
-							<select class="form-control custom-select" id="information-1">
-								<option value="Memuaskan">Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Tidak Memuaskan">Tidak Memuaskan</option>
-							</select>
-						</div>
+						<label class="text-justify">Prodi Teknik Elektro Fakultas Teknik memberikan informasi sistem perkuliahan dalam bentuk buku panduan perkuliahan</label>
+						<select class="form-control custom-select" id="FG01">
+							<option value="Tidak Memuaskan">Tidak Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Memuaskan">Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option>
+						</select>
 					</div>
 					<div class="form-group">
-						<label class="text-justify">2. Prodi Teknik Elektro Fakultas Teknik memberikan informasi akademik dan pelayanan non akademik dalam bentuk website (online)</label>
-						<div class="input-group">
-							<div class="input-group-prepend">
-								<span class="input-group-text">Nilai</span>
-							</div>
-							<select class="form-control custom-select" id="information-2">
-								<option value="Memuaskan">Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Tidak Memuaskan">Tidak Memuaskan</option>
-							</select>
-						</div>
+						<label class="text-justify">Prodi Teknik Elektro Fakultas Teknik memberikan informasi akademik dan pelayanan non akademik dalam bentuk website (online)</label>
+						<select class="form-control custom-select" id="FG02">
+							<option value="Tidak Memuaskan">Tidak Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Memuaskan">Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option>
+						</select>
 					</div>
 					<div class="form-group">
-						<label class="text-justify">3. Prodi Teknik Elektro Fakultas Teknik secara terbuka memberikan informasi dan pelayanan baik akademik maupun non akademik</label>
-						<div class="input-group">
-							<div class="input-group-prepend">
-								<span class="input-group-text">Nilai</span>
-							</div>
-							<select class="form-control custom-select" id="information-3">
-								<option value="Memuaskan">Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Tidak Memuaskan">Tidak Memuaskan</option>
-							</select>
-						</div>
+						<label class="text-justify">Prodi Teknik Elektro Fakultas Teknik secara terbuka memberikan informasi dan pelayanan baik akademik maupun non akademik</label>
+						<select class="form-control custom-select" id="FG03">
+							<option value="Tidak Memuaskan">Tidak Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Memuaskan">Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option>
+						</select>
 					</div>
 					<div class="form-group">
-						<label class="text-justify">4. Prodi Teknik Elektro Fakultas Teknik membuka layanan pengaduan bagi mahasiswa yang memiliki permasalahan</label>
-						<div class="input-group">
-							<div class="input-group-prepend">
-								<span class="input-group-text">Nilai</span>
-							</div>
-							<select class="form-control custom-select" id="information-4">
-								<option value="Memuaskan">Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Tidak Memuaskan">Tidak Memuaskan</option>
-							</select>
-						</div>
+						<label class="text-justify">Prodi Teknik Elektro Fakultas Teknik membuka layanan pengaduan bagi mahasiswa yang memiliki permasalahan</label>
+						<select class="form-control custom-select" id="FG04">
+							<option value="Tidak Memuaskan">Tidak Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Memuaskan">Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option>
+						</select>
 					</div>
 					<div class="form-group">
-						<label class="text-justify">5. Prodi Teknik Elektro Fakultas Teknik berusaha memberikan respon positif setiap pengaduan mahasiswa</label>
-						<div class="input-group">
-							<div class="input-group-prepend">
-								<span class="input-group-text">Nilai</span>
-							</div>
-							<select class="form-control custom-select" id="information-5">
-								<option value="Memuaskan">Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Tidak Memuaskan">Tidak Memuaskan</option>
-							</select>
-						</div>
+						<label class="text-justify">Prodi Teknik Elektro Fakultas Teknik berusaha memberikan respon positif setiap pengaduan mahasiswa</label>
+						<select class="form-control custom-select" id="FG05">
+							<option value="Tidak Memuaskan">Tidak Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Memuaskan">Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option>
+						</select>
 					</div>
 					<div class="form-group">
-						<label class="text-justify">6. Prodi Teknik Elektro Fakultas Teknik berusaha secara transparan dalam menjelaskan penggunaan dana kemahasiswaan</label>
-						<div class="input-group">
-							<div class="input-group-prepend">
-								<span class="input-group-text">Nilai</span>
-							</div>
-							<select class="form-control custom-select" id="information-6">
-								<option value="Memuaskan">Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Tidak Memuaskan">Tidak Memuaskan</option>
-							</select>
-						</div>
+						<label class="text-justify">Prodi Teknik Elektro Fakultas Teknik berusaha secara transparan dalam menjelaskan penggunaan dana kemahasiswaan</label>
+						<select class="form-control custom-select" id="FG06">
+							<option value="Tidak Memuaskan">Tidak Memuaskan</option><option value="Kurang Memuaskan">Kurang Memuaskan</option><option value="Cukup Memuaskan">Cukup Memuaskan</option><option value="Memuaskan">Memuaskan</option><option value="Sangat Memuaskan">Sangat Memuaskan</option>
+						</select>
 					</div>
+					<h6><b>H. Kritik Dan Saran</b></h6><hr>
 					<div class="form-group">
 						<label class="text-justify">Kritik</label>
-						<textarea class="form-control" id="kritik" name="kritik"></textarea>
+						<textarea class="form-control" id="FH01"></textarea>
 					</div>
 					<div class="form-group">
 						<label class="text-justify">Saran</label>
-						<textarea class="form-control" id="saran" name="saran"></textarea>
+						<textarea class="form-control" id="FH02"></textarea>
 					</div>
 					<button class="btn btn-primary fill-parent" id="kirim">Kirim</button>
-					<script type="text/javascript">
-						$(document).ready(function(){setInterval(function(){if(!($('#email').val().length)||!($('#nama').val().length)||!($('#nim').val().length)||!($('#kelamin').val().length)||!($('#rt').val().length)||!($('#rw').val().length)||!($('#dusun').val().length)||!($('#desa').val().length)||!($('#kecamatan').val().length)||!($('#kabupaten').val().length)||!($('#tangibles-1').val().length)||!($('#tangibles-2').val().length)||!($('#tangibles-3').val().length)||!($('#tangibles-4').val().length)||!($('#tangibles-5').val().length)||!($('#tangibles-6').val().length)||!($('#tangibles-7').val().length)||!($('#tangibles-8').val().length)||!($('#tangibles-9').val().length)||!($('#reliability-1').val().length)||!($('#reliability-2').val().length)||!($('#reliability-3').val().length)||!($('#reliability-4').val().length)||!($('#reliability-5').val().length)||!($('#reliability-6').val().length)||!($('#reliability-7').val().length)||!($('#reliability-8').val().length)||!($('#reliability-9').val().length)||!($('#responsiveness-1').val().length)||!($('#responsiveness-2').val().length)||!($('#responsiveness-3').val().length)||!($('#responsiveness-4').val().length)||!($('#responsiveness-5').val().length)||!($('#assurance-1').val().length)||!($('#assurance-2').val().length)||!($('#assurance-3').val().length)||!($('#assurance-4').val().length)||!($('#assurance-5').val().length)||!($('#empathy-1').val().length)||!($('#empathy-2').val().length)||!($('#empathy-3').val().length)||!($('#empathy-4').val().length)||!($('#empathy-5').val().length)||!($('#empathy-6').val().length)||!($('#information-1').val().length)||!($('#information-2').val().length)||!($('#information-3').val().length)||!($('#information-4').val().length)||!($('#information-5').val().length)||!($('#information-6').val().length)||!($('#kritik').val().length)||!($('#saran').val().length)){$('#kirim').prop('disabled',true);$('#kirim').css('cursor','not-allowed');}else{$('#kirim').prop('disabled',false);$('#kirim').css('cursor','pointer');}});$('#kirim').click(function(){firebase.database().ref('form-kuesioner-akademik').push({"email":$('#email').val(),"nama":$('#nama').val(),"nim":$('#nim').val(),"kelamin":$('#kelamin').val(),"rt":$('#rt').val(),"rw":$('#rw').val(),"dusun":$('#dusun').val(),"desa":$('#desa').val(),"kecamatan":$('#kecamatan').val(),"kabupaten":$('#kabupaten').val(),"tangibles-1":$('#tangibles-1').val(),"tangibles-2":$('#tangibles-2').val(),"tangibles-3":$('#tangibles-3').val(),"tangibles-4":$('#tangibles-4').val(),"tangibles-5":$('#tangibles-5').val(),"tangibles-6":$('#tangibles-6').val(),"tangibles-7":$('#tangibles-7').val(),"tangibles-8":$('#tangibles-8').val(),"tangibles-9":$('#tangibles-9').val(),"reliability-1":$('#reliability-1').val(),"reliability-2":$('#reliability-2').val(),"reliability-3":$('#reliability-3').val(),"reliability-4":$('#reliability-4').val(),"reliability-5":$('#reliability-5').val(),"reliability-6":$('#reliability-6').val(),"reliability-7":$('#reliability-7').val(),"reliability-8":$('#reliability-8').val(),"reliability-9":$('#reliability-9').val(),"responsiveness-1":$('#responsiveness-1').val(),"responsiveness-2":$('#responsiveness-2').val(),"responsiveness-3":$('#responsiveness-3').val(),"responsiveness-4":$('#responsiveness-4').val(),"responsiveness-5":$('#responsiveness-5').val(),"assurance-1":$('#assurance-1').val(),"assurance-2":$('#assurance-2').val(),"assurance-3":$('#assurance-3').val(),"assurance-4":$('#assurance-4').val(),"assurance-5":$('#assurance-5').val(),"empathy-1":$('#empathy-1').val(),"empathy-2":$('#empathy-2').val(),"empathy-3":$('#empathy-3').val(),"empathy-4":$('#empathy-4').val(),"empathy-5":$('#empathy-5').val(),"empathy-6":$('#empathy-6').val(),"information-1":$('#information-1').val(),"information-2":$('#information-2').val(),"information-3":$('#information-3').val(),"information-4":$('#information-4').val(),"information-5":$('#information-5').val(),"information-6":$('#information-6').val(),"kritik":$('#kritik').val(),"saran":$('#saran').val()},function(error){if(error){bootbox.alert({message:"Terjadi kesalahan, silahkan ulangi lagi",callback:function(){}});}else{bootbox.alert({message:"Semua data berhasil disimpan",callback:function(){location.reload();}});}});});});
-					</script>
+					<script type="text/javascript">$(document).ready(function(){setInterval(function(){if((!($('#FA01').val().length))||(!($('#FA02').val().length))||(!($('#FA03').val().length))||(!($('#FA04').val().length))||(!($('#FA05').val().length))||(!($('#FA06').val().length))||(!($('#FA07').val().length))||(!($('#FA08').val().length))||(!($('#FA09').val().length))||(!($('#FA10').val().length))||(!($('#FB01').val().length))||(!($('#FB02').val().length))||(!($('#FB03').val().length))||(!($('#FB04').val().length))||(!($('#FB05').val().length))||(!($('#FB06').val().length))||(!($('#FB07').val().length))||(!($('#FB08').val().length))||(!($('#FB09').val().length))||(!($('#FC01').val().length))||(!($('#FC02').val().length))||(!($('#FC03').val().length))||(!($('#FC04').val().length))||(!($('#FC05').val().length))||(!($('#FC06').val().length))||(!($('#FC07').val().length))||(!($('#FC08').val().length))||(!($('#FD01').val().length))||(!($('#FD02').val().length))||(!($('#FD03').val().length))||(!($('#FD04').val().length))||(!($('#FD05').val().length))||(!($('#FE01').val().length))||(!($('#FE02').val().length))||(!($('#FE03').val().length))||(!($('#FE04').val().length))||(!($('#FE05').val().length))||(!($('#FF01').val().length))||(!($('#FF02').val().length))||(!($('#FF03').val().length))||(!($('#FF04').val().length))||(!($('#FF05').val().length))||(!($('#FF06').val().length))||(!($('#FG01').val().length))||(!($('#FG02').val().length))||(!($('#FG03').val().length))||(!($('#FG04').val().length))||(!($('#FG05').val().length))||(!($('#FG06').val().length))||(!($('#FH01').val().length))||(!($('#FH02').val().length))){$('#kirim').prop('disabled',true);$('#kirim').css('cursor','not-allowed');}else{$('#kirim').prop('disabled',false);$('#kirim').css('cursor','pointer');}});$('#kirim').click(function(){$('.loading').css('display', 'flex');firebase.database().ref('form-kuesioner-akademik').push({"FA01":$('#FA01').val(),"FA02":$('#FA02').val(),"FA03":$('#FA03').val(),"FA04":$('#FA04').val(),"FA05":$('#FA05').val(),"FA06":$('#FA06').val(),"FA07":$('#FA07').val(),"FA08":$('#FA08').val(),"FA09":$('#FA09').val(),"FA10":$('#FA10').val(),"FB01":$('#FB01').val(),"FB02":$('#FB02').val(),"FB03":$('#FB03').val(),"FB04":$('#FB04').val(),"FB05":$('#FB05').val(),"FB06":$('#FB06').val(),"FB07":$('#FB07').val(),"FB08":$('#FB08').val(),"FB09":$('#FB09').val(),"FC01":$('#FC01').val(),"FC02":$('#FC02').val(),"FC03":$('#FC03').val(),"FC04":$('#FC04').val(),"FC05":$('#FC05').val(),"FC06":$('#FC06').val(),"FC07":$('#FC07').val(),"FC08":$('#FC08').val(),"FD01":$('#FD01').val(),"FD02":$('#FD02').val(),"FD03":$('#FD03').val(),"FD04":$('#FD04').val(),"FD05":$('#FD05').val(),"FE01":$('#FE01').val(),"FE02":$('#FE02').val(),"FE03":$('#FE03').val(),"FE04":$('#FE04').val(),"FE05":$('#FE05').val(),"FF01":$('#FF01').val(),"FF02":$('#FF02').val(),"FF03":$('#FF03').val(),"FF04":$('#FF04').val(),"FF05":$('#FF05').val(),"FF06":$('#FF06').val(),"FG01":$('#FG01').val(),"FG02":$('#FG02').val(),"FG03":$('#FG03').val(),"FG04":$('#FG04').val(),"FG05":$('#FG05').val(),"FG06":$('#FG06').val(),"FH01":$('#FH01').val(),"FH02":$('#FH02').val()},function(error){if(error){$('.loading').css('display', 'none');bootbox.alert({message:"Mohon maaf terjadi kesalahan, silahkan ulangi lagi",callback:function(){}});}else{$('.loading').css('display', 'none');bootbox.alert({message:"Semua data berhasil disimpan",callback:function(){location.reload();}});}});});});</script>
 				</div>
 			</div>
 		</div>
@@ -585,6 +357,9 @@
 				</div>
 			</div>
 		</div>
+	</div>
+	<div class="loading">
+		<div class="spinner-border text-light"></div>
 	</div>
 </body>
 </html>
