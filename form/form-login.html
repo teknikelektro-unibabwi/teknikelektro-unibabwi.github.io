@@ -71,23 +71,6 @@
 					<div class="col-lg">
 						<div class="table-responsive">
 							<table class="table table-bordered table-hover table-sm" id="table-biodata-mahasiswa">
-								<thead class="thead-light"><tr><th>Email</th><th>Nama</th><th>NIM</th><th>NIK</th><th>No. Telp/HP</th><th>Tempat dan Tanggal Lahir</th><th>Jenis Kelamin</th><th>Angkatan</th><th>Alamat</th><th>Nama Orang Tua</th><th>No. Telp/HP Orang Tua</th></tr></thead>
-								<tbody></tbody>
-							</table>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="tab-pane container fade" id="tb3">
-				<div class="row">
-					<div class="col-sm-6"><button class="form-margin btn btn-primary fill-parent" id="btn-kuesioner-akademik">Get JSON</button></div>
-					<div class="col-sm-6"><button class="form-margin btn btn-primary fill-parent" id="btn-kuesioner-akademik-down">Download CSV</button></div>
-				</div>
-				<div class="margin-space-bottom">&nbsp;</div>
-				<div class="row">
-					<div class="col-lg">
-						<div class="table-responsive">
-							<table class="table table-bordered table-hover table-sm" id="table-kuesioner-akademik">
 								<thead class="thead-light">
 									<tr>
 										<th>Email</th>
@@ -108,11 +91,7 @@
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="tab-pane container fade" id="tb4">...</div>
-		</div>
-	</div>
-	<script type="text/javascript">
+				<script type="text/javascript">
 $(document).ready(function() {
 	$('#btn-biodata-mahasiswa').click(function() {
 		$('.loading').css('display','flex');
@@ -141,7 +120,244 @@ $(document).ready(function() {
 		});
 	});
 });
-	</script>
+				</script>
+			</div>
+			<div class="tab-pane container fade" id="tb3">
+				<div class="row">
+					<div class="col-sm-6"><button class="form-margin btn btn-primary fill-parent" id="btn-kuesioner-akademik">Get JSON</button></div>
+					<div class="col-sm-6"><button class="form-margin btn btn-primary fill-parent" id="btn-kuesioner-akademik-down">Download CSV</button></div>
+				</div>
+				<div class="margin-space-bottom">&nbsp;</div>
+				<div class="row">
+					<div class="col-lg">
+						<div class="table-responsive">
+							<table class="table table-bordered table-hover table-sm" id="table-kuesioner-akademik">
+								<thead class="thead-light">
+									<tr>
+										<th>Email</th>
+										<th>Nama</th>
+										<th>NIM</th>
+										<th>Jenis Kelamin</th>
+										<th>Alamat</th>
+										<th>B1. Ruang kuliah tertata dengan bersih dan rapi</th>
+										<th>B2. Ruang kuliah sejuk dan nyaman</th>
+										<th>B3. Sarana pembelajaran yang tersedia di ruang kuliah</th>
+										<th>B4. Prodi Teknik Elektro Fakultas Teknik mempunyai perpustakaan yang lengkap</th>
+										<th>B5. Laboratorium, bengkel yang relevan dengan kebutuhan keilmuan bagi mahasiswa (IPA, Teknik, bahasa, komputer dan lain-lain)</th>
+										<th>B6. Ketersediaan buku referensi yang di perpustakaan</th>
+										<th>B7. Ketersediaan fasilitas kamar kecil yang cukup dan bersih</th>
+										<th>B8. Fasilitas ibadah yang dapat dipergunakan oleh mahasiswa di Prodi Teknik Elektro Fakultas Teknik</th>
+										<th>B9. Kesesuaian nilai yang diberikan dengan hasil belajar</th>
+										<th>C1. Kejelasan materi perkuliahan yang diberikan dosen</th>
+										<th>C2. Waktu yang disediakan untuk diskusi dan tanya jawab</th>
+										<th>C3. Bahan ajar suplemen (handout, modul, dll) yang diberikan kepada mahasiswa untuk melengkapi materi perkuliahan</th>
+										<th>C4. Dosen mengembalikan hasil ujian/tugas dengan nilai yang obyektif</th>
+										<th>C5. Dosen datang tepat waktu</th>
+										<th>C6. Dosen memadai sesuai dengan bidang keahliannya</th>
+										<th>C7. Satuan Acara Perkuliahan yang dibuat dosen</th>
+										<th>C8. Kemampuan staf akademik untuk melayani administrasi kemahasiswaan</th>
+										<th>C9. Kualitas layanan staf akademik untuk memenuhi kepentingan mahasiswa</th>
+										<th>D1. Prodi Teknik Elektro Fakultas Teknik menyediakan dosen Bimbingan Konseling bagi mahasiswa</th>
+										<th>D2. Prodi Teknik Elektro Fakultas Teknik menyediakan beasiswa bagi mahasiswa yang tidak mampu</th>
+										<th>D3. Prodi Teknik Elektro Fakultas Teknik membantu mahasiswa apabila menghadapi masalah akademik</th>
+										<th>D4. Pimpinan Fakultas Teknik peserta jajarannya menyediakan waktu bagi orang tua mahasiswa untuk berkonsultasi</th>
+										<th>D5. Prodi Teknik Elektro Fakultas Teknik khususnya prodi Teknik Elektro memberikan bantuan asuransi bagi mahasiswa yang mendapatkan musibah</th>
+										<th>E1. Staf administrasi akademik santun dalam memberikan pelayanan</th>
+										<th>E2. Permasalahan/keluhan mahasiswa ditangani oleh Fakultas Teknik melalui dosen PA (Pembimbing Akademik)</th>
+										<th>E3. Setiap pekerjaan/tugas selalu dikembalikan pada mahasiswa</th>
+										<th>E4. Waktu dipergunakan secara efektif oleh dosen dalam proses pengajaran</th>
+										<th>E5. Sanksi bagi mahasiswa yang melanggar peraturan yang telah ditetapkan Universitas PGRI Banyuwangi dan berlaku untuk semua mahasiswa tanpa terkecuali</th>
+										<th>F1. Kepedulian Prodi Teknik Elektro Fakultas Teknik dalam memahami kepentingan dan kesulitan mahasiswa</th>
+										<th>F2. Besarnya kontribusi biaya (sumbangan pengembangan lembaga) dibicarakan dengan orang tua wali mahasiswa</th>
+										<th>F3. Prodi Teknik Elektro Fakultas Teknik memonitor terhadap kemajuan mahasiswa melalui dosen Pembimbing Akademik atau dosen bimbingan konseling</th>
+										<th>F4. Dosen bersedia membantu mahasiswa yang mengalami kesulitan bidang akademik/mata kuliah</th>
+										<th>F5. Dosen bersikap terbuka, kooperatif dengan mahasiswa</th>
+										<th>F6. Prodi Teknik Elektro Fakultas Teknik berusaha memahami minat dan bakat mahasiswa dan berusaha untuk mengembangkannya</th>
+										<th>G1. Prodi Teknik Elektro Fakultas Teknik memberikan informasi sistem perkuliahan dalam bentuk buku panduan perkuliahan</th>
+										<th>G2. Prodi Teknik Elektro Fakultas Teknik memberikan informasi akademik dan pelayanan non akademik dalam bentuk website (online)</th>
+										<th>G3. Prodi Teknik Elektro Fakultas Teknik secara terbuka memberikan informasi dan pelayanan baik akademik maupun non akademik</th>
+										<th>G4. Prodi Teknik Elektro Fakultas Teknik membuka layanan pengaduan bagi mahasiswa yang memiliki permasalahan</th>
+										<th>G5. Prodi Teknik Elektro Fakultas Teknik berusaha memberikan respon positif setiap pengaduan mahasiswa</th>
+										<th>G6. Prodi Teknik Elektro Fakultas Teknik berusaha secara transparan dalam menjelaskan penggunaan dana kemahasiswaan</th>
+										<th>H1. Kritik</th>
+										<th>H2. Saran</th>
+									</tr>
+								</thead>
+								<tbody></tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+				<script type="text/javascript">
+$(document).ready(function() {
+	$('#btn-kuesioner-akademik').click(function() {
+		$('.loading').css('display','flex');
+		firebase.database().ref().child('form-kuesioner-akademik').once('value', function(snapshot) {
+			snapshot.forEach(function(childSnapshot) {
+				var arrChildKey = [], arrChildData = [];
+				arrChildKey.push(childSnapshot.key);
+				arrChildData.push(childSnapshot.val());
+				$('#table-kuesioner-akademik>tbody').append(
+					'<tr>' +
+						'<td>' + arrChildData[0].FA01 + '</td>' +
+						'<td>' + arrChildData[0].FA02 + '</td>' +
+						'<td>' + arrChildData[0].FA03 + '</td>' +
+						'<td>' + arrChildData[0].FA04 + '</td>' +
+						'<td>' + 'RT.&nbsp;' + arrChildData[0].FA05 + ',&nbsp;RW.&nbsp;' + arrChildData[0].FA06 + ',&nbsp;Dsn.&nbsp;' + arrChildData[0].FA07 + ',&nbsp;Ds.&nbsp;' + arrChildData[0].FA08 + ',&nbsp;Kec.&nbsp;' + arrChildData[0].FA09 + ',&nbsp;Kab.&nbsp;' + arrChildData[0].FA10 + '</td>' +
+						'<td>' + arrChildData[0].FB01 + '</td>' +
+						'<td>' + arrChildData[0].FB02 + '</td>' +
+						'<td>' + arrChildData[0].FB03 + '</td>' +
+						'<td>' + arrChildData[0].FB04 + '</td>' +
+						'<td>' + arrChildData[0].FB05 + '</td>' +
+						'<td>' + arrChildData[0].FB06 + '</td>' +
+						'<td>' + arrChildData[0].FB07 + '</td>' +
+						'<td>' + arrChildData[0].FB08 + '</td>' +
+						'<td>' + arrChildData[0].FB09 + '</td>' +
+						'<td>' + arrChildData[0].FC01 + '</td>' +
+						'<td>' + arrChildData[0].FC02 + '</td>' +
+						'<td>' + arrChildData[0].FC03 + '</td>' +
+						'<td>' + arrChildData[0].FC04 + '</td>' +
+						'<td>' + arrChildData[0].FC05 + '</td>' +
+						'<td>' + arrChildData[0].FC06 + '</td>' +
+						'<td>' + arrChildData[0].FC07 + '</td>' +
+						'<td>' + arrChildData[0].FC08 + '</td>' +
+						'<td>' + arrChildData[0].FC09 + '</td>' +
+						'<td>' + arrChildData[0].FD01 + '</td>' +
+						'<td>' + arrChildData[0].FD02 + '</td>' +
+						'<td>' + arrChildData[0].FD03 + '</td>' +
+						'<td>' + arrChildData[0].FD04 + '</td>' +
+						'<td>' + arrChildData[0].FD05 + '</td>' +
+						'<td>' + arrChildData[0].FE01 + '</td>' +
+						'<td>' + arrChildData[0].FE02 + '</td>' +
+						'<td>' + arrChildData[0].FE03 + '</td>' +
+						'<td>' + arrChildData[0].FE04 + '</td>' +
+						'<td>' + arrChildData[0].FE05 + '</td>' +
+						'<td>' + arrChildData[0].FF01 + '</td>' +
+						'<td>' + arrChildData[0].FF02 + '</td>' +
+						'<td>' + arrChildData[0].FF03 + '</td>' +
+						'<td>' + arrChildData[0].FF04 + '</td>' +
+						'<td>' + arrChildData[0].FF05 + '</td>' +
+						'<td>' + arrChildData[0].FF06 + '</td>' +
+						'<td>' + arrChildData[0].FG01 + '</td>' +
+						'<td>' + arrChildData[0].FG02 + '</td>' +
+						'<td>' + arrChildData[0].FG03 + '</td>' +
+						'<td>' + arrChildData[0].FG04 + '</td>' +
+						'<td>' + arrChildData[0].FG05 + '</td>' +
+						'<td>' + arrChildData[0].FG06 + '</td>' +
+						'<td>' + arrChildData[0].FH01 + '</td>' +
+						'<td>' + arrChildData[0].FH02 + '</td>' +
+					'</tr>'
+				);
+			});
+			$('.loading').css('display','none');
+		});
+	});
+});
+				</script>
+			</div>
+			<div class="tab-pane container fade" id="tb4">
+				<div class="row">
+					<div class="col-sm-6"><button class="form-margin btn btn-primary fill-parent" id="btn-kuesioner-alumni">Get JSON</button></div>
+					<div class="col-sm-6"><button class="form-margin btn btn-primary fill-parent" id="btn-kuesioner-alumni-down">Download CSV</button></div>
+				</div>
+				<div class="margin-space-bottom">&nbsp;</div>
+				<div class="row">
+					<div class="col-lg">
+						<div class="table-responsive">
+							<table class="table table-bordered table-hover table-sm" id="table-kuesioner-alumni">
+								<thead class="thead-light">
+									<tr>
+										<th>Email</th>
+										<th>Nama</th>
+										<th>Jenis Kelamin</th>
+										<th>Tempat dan Tanggal Lahir</th>
+										<th>Alamat</th>
+										<th>Alamat Kantor</th>
+										<th>No. Telp/HP</th>
+										<th>Tahun Angkatan</th>
+										<th>Tahun Lulus</th>
+										<th>B1. Lama Menunggu Pekerjaan</th>
+										<th>B2. Sumber Informasi Pekerjaan</th>
+										<th>B3. Pekerjaan Pertama Anda</th>
+										<th>B4. Kapan Mulai Bekerja</th>
+										<th>B5. Nama Instansi Pekerjaan</th>
+										<th>B6. Posisi/Bidang Usaha/Pekerjaan</th>
+										<th>B7. Alamat Instansi</th>
+										<th>C1. Pekerjaan Yang Dijalani Saat Ini</th>
+										<th>C2. Posisi/Bidang Usaha/Pekerjaan</th>
+										<th>C3. Alamat Instansi</th>
+										<th>C4. Apakah Materi Yang Anda Peroleh Sesuai Dengan Bidang Tersebut dan Terpenuhi</th>
+										<th>C5. Seberapa Besar Persentase Kesesuaian Pengetahuan Dan Keterampilan Yang Saudara Peroleh Dari Program Studi Dengan Tuntutan Pekerjaan Pertama Saudara</th>
+										<th>C6. Sejauh Mana Pekerjaan Saudara Membutuhkan Kemampuan Bahasa Inggris</th>
+										<th>C7. Sejauh Mana Pekerjaan Saudara Membutuhkan Teknologi Informasi</th>
+										<th>C8. Apakah Instansi Di Tempat Saudara Bekerja Mensyaratkan IPK</th>
+										<th>D1. Apakah Materi Pendidikan Di Prodi Teknik Elektro Universitas PGRI Banyuwangi Bermanfaat Untuk Pekerjaan Anda</th>
+										<th>D2. Menurut Anda Bekal Tambahan Apa Yang Diperlukan Bagi Lulusan Prodi Teknik Elektro Universitas PGRI Banyuwangi Untuk Mendukung Pekerjaan (Soft Skills)</th>
+										<th>D3. Berikan Saran Untuk Prodi Teknik Elektro Universitas PGRI Banyuwangi</th>
+										<th>D4. Berikan Saran Untuk Pengembangan Institusi (Organisasi Fakultas Dan Pengembangan Program Studi)</th>
+										<th>D5. Berikan Saran Untuk Pengembangan Kurikulum (Mata Kuliah, Beban SKS)</th>
+										<th>D6. Berikan Saran Untuk Pengembangan Infra Struktur (Laboratorium, Ruang Kuliah, Perpustakaan)</th>
+										<th>D7. Berikan Saran Untuk Pengembangan Kemahasiswaan</th>
+									</tr>
+								</thead>
+								<tbody></tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+				<script type="text/javascript">
+$(document).ready(function() {
+	$('#btn-kuesioner-alumni').click(function() {
+		$('.loading').css('display','flex');
+		firebase.database().ref().child('form-kuesioner-alumni').once('value', function(snapshot) {
+			snapshot.forEach(function(childSnapshot) {
+				var arrChildKey = [], arrChildData = [];
+				arrChildKey.push(childSnapshot.key);
+				arrChildData.push(childSnapshot.val());
+				$('#table-kuesioner-alumni>tbody').append(
+					'<tr>' +
+						'<td>' + arrChildData[0].FA01 + '</td>' +
+						'<td>' + arrChildData[0].FA02 + '</td>' +
+						'<td>' + arrChildData[0].FA03 + '</td>' +
+						'<td>' + arrChildData[0].FA04 + ',&nbsp;' + arrChildData[0].FA05 + '&nbsp;' + arrChildData[0].FA06 + '&nbsp;' + arrChildData[0].FA07 + '</td>' +
+						'<td>' + 'RT.&nbsp;' + arrChildData[0].FA08 + ',&nbsp;RW.&nbsp;' + arrChildData[0].FA09 + ',&nbsp;Dsn.&nbsp;' + arrChildData[0].FA10 + ',&nbsp;Ds.&nbsp;' + arrChildData[0].FA11 + ',&nbsp;Kec.&nbsp;' + arrChildData[0].FA12 + ',&nbsp;Kab.&nbsp;' + arrChildData[0].FA13 + '</td>' +
+						'<td>' + arrChildData[0].FA14 + '</td>' +
+						'<td>' + arrChildData[0].FA15 + '</td>' +
+						'<td>' + arrChildData[0].FA16 + '</td>' +
+						'<td>' + arrChildData[0].FA17 + '</td>' +
+						'<td>' + arrChildData[0].FB01 + '</td>' +
+						'<td>' + arrChildData[0].FB02 + '</td>' +
+						'<td>' + arrChildData[0].FB03 + '</td>' +
+						'<td>' + arrChildData[0].FB04 + '&nbsp;' + arrChildData[0].FB05 + '&nbsp;' + arrChildData[0].FB06 + '</td>' +
+						'<td>' + arrChildData[0].FB07 + '</td>' +
+						'<td>' + arrChildData[0].FB08 + '</td>' +
+						'<td>' + arrChildData[0].FB09 + '</td>' +
+						'<td>' + arrChildData[0].FC01 + '</td>' +
+						'<td>' + arrChildData[0].FC02 + '</td>' +
+						'<td>' + arrChildData[0].FC03 + '</td>' +
+						'<td>' + arrChildData[0].FC04 + '</td>' +
+						'<td>' + arrChildData[0].FC05 + '</td>' +
+						'<td>' + arrChildData[0].FC06 + '</td>' +
+						'<td>' + arrChildData[0].FC07 + '</td>' +
+						'<td>' + arrChildData[0].FC08 + '</td>' +
+						'<td>' + arrChildData[0].FD01 + '</td>' +
+						'<td>' + arrChildData[0].FD02 + '</td>' +
+						'<td>' + arrChildData[0].FD03 + '</td>' +
+						'<td>' + arrChildData[0].FD04 + '</td>' +
+						'<td>' + arrChildData[0].FD05 + '</td>' +
+						'<td>' + arrChildData[0].FD06 + '</td>' +
+						'<td>' + arrChildData[0].FD07 + '</td>' +
+					'</tr>'
+				);
+			});
+			$('.loading').css('display','none');
+		});
+	});
+});
+				</script>
+			</div>
+		</div>
+	</div>
 	<div class="bg-blue">
 		<div class="container">
 			<div class="row">
